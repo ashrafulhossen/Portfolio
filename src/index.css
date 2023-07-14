@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.primary-gradient-right {
+	@apply bg-gradient-to-r from-[#0f3397] to-[#11afaf];
+}
+
+.primary-gradient-left {
+	@apply bg-gradient-to-l from-[#0f3397] to-[#11afaf];
+}
+
+.primary-gradient-top {
+	@apply bg-gradient-to-t from-[#215cff] to-[#29ffff] from-40%;
+}
+
+.primary-gradient-bottom {
+	@apply bg-gradient-to-b from-[#215cff] to-[#29ffff] from-40%;
+}
+
+.transparent-gradient {
+	@apply bg-gradient-to-b from-[#29ffff] to-[#00000000];
+}
+
+.bg-gradient-right {
+	@apply bg-gradient-to-r from-[#122fb8] to-[#12c7c7];
+}
+
+.bg-gradient-left {
+	@apply bg-gradient-to-l from-[#122fb8] to-[#12c7c7];
+}
+
+.text-gradient {
+	@apply bg-gradient-to-t from-[#3700ff] from-20% to-[#00ffff];
+}
+
+.nav-link {
+	@apply w-10 h-10 rounded-full p-2 hover:bg-gradient-to-r from-[#122fb8] to-[#12c7c7] transition-all duration-300;
+}
+
+.max-w {
+	@apply max-w-7xl mx-auto px-8;
+}
+
+.text-primary {
+	@apply text-[#01ffff];
+}
+
+.text-secondary {
+    @apply text-[#b3b3b3]
+}
+
+.input-field {
+    @apply px-4 py-2 rounded-xl min-w-[300px] xs:w-96 lg:w-[450px] outline-none text-white bg-gradient-to-r from-[#0024dabb] to-[#11c5c5bb]
+}
